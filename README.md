@@ -5,6 +5,7 @@
 可以将腾讯云服务器的 `内存` 和 `CPU`一天内的平均数据和最大峰值发送到slack的组或用户下。
 
 如图所示：
+
 <img src="http://oe1qcatok.bkt.clouddn.com/20170428149337619684645.png" width="60%" height="60%">
 
 
