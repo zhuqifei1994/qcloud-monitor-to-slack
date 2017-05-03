@@ -20,7 +20,7 @@
 "SLACK_CHANNEL" = "Your Slack send to Channel"
 ```
 
-### 启动服务
+### 配置服务
 
 根据服务器所在位置不同，启动命令添加的参数也不同:
 
@@ -28,7 +28,7 @@
 北京:bj，广州:gz，上海:sh，香港:hk，北美:ca，新加坡:sg
 ```
 
-启动服务入口文件为 `app.js` ,在文件底部添加执行命令。
+启动服务入口文件为 `app.js` ,在文件底部添加不同的语句。
 
 - 立即执行
 
@@ -42,4 +42,8 @@ checkServerData('sh');
 schedule.scheduleJob('00 08 * * 1-5', () => checkServerData('sh'));
 ```
 
+### 启动服务
 
+```
+node app.js
+```
