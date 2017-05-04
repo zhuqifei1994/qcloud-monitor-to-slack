@@ -39,7 +39,7 @@ checkServerData('sh');
 - 定时执行
 
 ```
-schedule.scheduleJob('00 08 * * 1-5', () => checkServerData('sh'));
+schedule.scheduleJob('00 08 * * *', () => checkServerData('sh'));
 ```
 
 ### 启动服务
